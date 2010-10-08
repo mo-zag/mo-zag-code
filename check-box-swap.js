@@ -20,17 +20,17 @@ var checkBoxSwap = {
   findCheckbox: function()
     {
       $(':checkbox').map(function() {
-
-         if($("#" + this.id + ':checkbox').attr('checked') == true)
+          var idcheckbox = "#" + this.id ;
+         if($(idcheckbox + ':checkbox').attr('checked') == true)
           {
-            $("#" + this.id).hide();
-            $("#" + this.id).after(checkedImage ); 
+            $(idcheckbox).hide();
+            $(idcheckbox).after(checkedImage ); 
            
           }
-         else if($("#" + this.id + ':checkbox').attr('checked') == false)
+         else if($(idcheckbox + ':checkbox').attr('checked') == false)
           {
-            $("#" + this.id).hide();
-            $("#" + this.id).after(uncheckedImage); 
+            $(idcheckbox).hide();
+            $(idcheckbox).after(uncheckedImage); 
           }
      
         });
