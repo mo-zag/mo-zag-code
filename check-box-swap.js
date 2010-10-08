@@ -2,7 +2,7 @@
  * Cimex media
  * cimex.com
  * Example use:
- * Find all check boxes and replace with imgae
+ * Find all check boxes and replace with image
  * checkBoxSwap.findCheckbox();
  * When uses clicks on check box will change state checked unchecked
  * checkBoxSwap.swapImage();
