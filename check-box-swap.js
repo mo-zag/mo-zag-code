@@ -4,7 +4,7 @@
  * Example use:
  * Find all check boxes and replace with image
  * checkBoxSwap.findCheckbox();
- * When uses clicks on check box will change state checked unchecked
+ * When user clicks on check box will change state checked unchecked
  * checkBoxSwap.swapImage();
  */
 
