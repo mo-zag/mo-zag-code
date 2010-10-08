@@ -19,7 +19,6 @@ var checkBoxSwap = {
     /* Replaces checkboxes with images */
   findCheckbox: function()
     {
-        var num = 0;
       $(':checkbox').map(function() {
 
          if($("#" + this.id + ':checkbox').attr('checked') == true)
