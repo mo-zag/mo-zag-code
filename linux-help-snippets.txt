@@ -1,0 +1,20 @@
+## CODE SNIPETS FOR CENTOS 5 ##
+
+## APACHE ##
+# Start apache
+/sbin/service httpd start
+# Stop apache
+/sbin/service httpd stop
+# Restart apache
+/sbin/service httpd restart
+
+## ZEND SEVER ##
+
+# Start zend server
+/usr/local/zend/bin/zendctl.sh start
+# Restart zend server
+/usr/local/zend/bin/zendctl.sh restart
+## Stop zend server
+/usr/local/zend/bin/zendctl.sh stop
+
+
