@@ -17,4 +17,5 @@
 ## Stop zend server
 /usr/local/zend/bin/zendctl.sh stop
 
-
+## Windows install hapricot ##
+gem install hpricot --platform mswin32
