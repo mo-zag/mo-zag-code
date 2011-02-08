@@ -1,0 +1,4 @@
+# PHP functions
+/* Returns the name of the class of which object is an instance */
+ get_class($object)
+ get_class() // List current class name
