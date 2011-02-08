@@ -68,4 +68,4 @@ require 'fileutils'
 	
 	
 ## Initiate the function
-findFilePath 'views/pages/vulnerable-children', ' looked-after ', ' looked after '
+findFilePath 'pathtofile', ' word-to-look-for ', ' replace-with-this-word '
