@@ -25,3 +25,12 @@ gem install hpricot --platform mswin32
 /etc/init.d/apache2 start
 /etc/init.d/apache2 stop
 
+## INSTALL php unit tests on windows ###
+First off I'm assuming xampp is installed to C:\xampp
+1. Open a command prompt and go to C:\xampp\php
+2. Type "pear update-channels" (updates channel definitions)
+3. Type "pear upgrade" (upgrades all existing packages and pear)
+4. Type "pear channel-discover components.ez.no" (this is needed for PHPUnit)
+5. Type "pear channel-discover pear.symfony-project.com" (also needed by PHPUnit)
+6. Type "pear channel-discover pear.phpunit.de" (This IS phpunit)
+7. Type "pear install --alldeps phpunit/PHPUnit" (installs PHPUnit and all dependencies) 
