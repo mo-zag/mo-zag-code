@@ -34,3 +34,6 @@ First off I'm assuming xampp is installed to C:\xampp
 5. Type "pear channel-discover pear.symfony-project.com" (also needed by PHPUnit)
 6. Type "pear channel-discover pear.phpunit.de" (This IS phpunit)
 7. Type "pear install --alldeps phpunit/PHPUnit" (installs PHPUnit and all dependencies) 
+
+##Install ruby on ubuntu 12 precise vagrant
+https://www.digitalocean.com/community/articles/how-to-install-ruby-on-rails-on-ubuntu-12-04-lts-precise-pangolin-with-rvm
