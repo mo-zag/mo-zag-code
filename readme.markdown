@@ -17,4 +17,6 @@
 
 <p>Deploy code to development via capistrano NOTE: commit all your changes to mo and them run the command bellow after the command change Gemfile and uncomment Development and comment put production.</p>
 
+<p>NOTE: Before you deploy or commit any changes you should run rvmsudo bundle update (this will update the changes to compnenets gems we have made)</p>
+
 <pre>cap dev deploy:cold</pre>
