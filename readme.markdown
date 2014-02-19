@@ -13,3 +13,8 @@
 
 <p>Commit chnages</p>
 <pre>git commit -m "Updated shift information to not redirect after update"</pre>
+
+
+<p>Deploy code to development via capistrano NOTE: commit all your changes to mo and them run the command bellow after the command change Gemfile and uncomment Development and comment put production.</p>
+
+<pre>cap dev deploy:cold</pre>
